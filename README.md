@@ -1,4 +1,12 @@
-# spell-checker package
+Spell checker plugin for Inkdrop
+================================
 
-A short description of your package.
+Spell checking for English
+
+## Install
+
+```
+ipm install spell-checker
+```
+
 
