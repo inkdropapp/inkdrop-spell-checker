@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "Toggle spell-checker",
+        "command": "spell-checker:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "spell-checker",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "spell-checker:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
