@@ -10,6 +10,6 @@
     "inkdrop": ">=3.11.0 <4.0.0"
   },
   "dependencies": {
-    "codemirror-spell-checker": "inkdropapp/codemirror-spell-checker"
+    "codemirror-spell-checker-inkdrop": "^1.1.3"
   }
 }
