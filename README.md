@@ -3,7 +3,7 @@ Spell checker plugin for Inkdrop
 
 Spell checking for English
 
-![screen shot](https://github.com/inkdropapp/inkdrop-spell-checker/docs/screenshot.png)
+![screen shot](https://raw.githubusercontent.com/inkdropapp/inkdrop-spell-checker/master/docs/screenshot.png)
 
 ## Install
 
