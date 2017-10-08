@@ -10,3 +10,10 @@ Spell checking for English
 ```
 ipm install spell-checker
 ```
+
+## Version history
+
+* 0.3.0
+  * Ignore non-alphabetical words
+* 0.2.2
+  * Initial release
