@@ -13,7 +13,7 @@ module.exports = {
 
   deactivate () {
     const editor = global.inkdrop.getActiveEditor()
-    if (editor.codeMirror && this.originalMode) {
+    if (editor && editor.codeMirror && this.originalMode) {
       editor.codeMirror.setOption('mode', this.originalMode)
     }
   },
