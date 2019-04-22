@@ -13,6 +13,8 @@ ipm install spell-checker
 
 ## Version history
 
+* 1.0.0
+  * Support Inkdrop v4.x
 * 0.3.0
   * Ignore non-alphabetical words
 * 0.2.2
