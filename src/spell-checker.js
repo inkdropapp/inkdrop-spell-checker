@@ -18,7 +18,7 @@ class SpellCheckerPlugin {
   }
 
   deactivate() {
-    this.subs.dispose()
+    if (this.subs) this.subs.dispose()
     const editor = global.inkdrop.getActiveEditor()
     if (editor && editor.codeMirror && this.originalMode) {
       editor.codeMirror.setOption('mode', this.originalMode)
