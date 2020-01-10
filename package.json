@@ -14,7 +14,7 @@
     "inkdrop": ">=4.3.0 <5.0.0"
   },
   "dependencies": {
-    "@inkdropapp/codemirror-spell-checker": "^1.0.1"
+    "@inkdropapp/codemirror-spell-checker": "^1.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
