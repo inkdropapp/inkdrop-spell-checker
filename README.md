@@ -19,13 +19,4 @@ You can change the language from: _Preferences -> Plugins -> spell-checker_ -> S
 
 ## Version history
 
-- 2.0.1
-  - Ignore 'url' and 'string' tokens
-- 2.0.0
-  - Support multiple languages (English, German and French)
-- 1.0.0
-  - Support Inkdrop v4.x
-- 0.3.0
-  - Ignore non-alphabetical words
-- 0.2.2
-  - Initial release
+See the [GitHub releases](https://github.com/inkdropapp/inkdrop-spell-checker/releases) for an overview of what changed in each update.
