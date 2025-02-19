@@ -9,12 +9,27 @@ class SpellCheckerPlugin {
     language: {
       type: 'string',
       default: 'en_US',
-      enum: ['de_DE', 'en_AU', 'en_CA', 'en_GB', 'en_US', 'fr_FR', 'ru_RU', 'es_ES', 'uk_UA']
+      enum: [
+        'de_DE',
+        'en_AU',
+        'en_CA',
+        'en_GB',
+        'en_US',
+        'fr_FR',
+        'ru_RU',
+        'es_ES',
+        'uk_UA'
+      ]
     }
   }
 
   activate() {
-    global.inkdrop.onEditorLoad(this.handleEditorInit.bind(this))
+    const editor = global.inkdrop.getActiveEditor()
+    if (editor) {
+      this.handleEditorInit(editor)
+    } else {
+      global.inkdrop.onEditorLoad(this.handleEditorInit.bind(this))
+    }
   }
 
   deactivate() {
